@@ -1,0 +1,21 @@
+{
+  "name": "pizza-order-tracker-app",
+  "version": "1.0.0",
+  "description": "Realtime pizza order tracker app using NodeJs, Express and Mongo DB",
+  "main": "index.js",
+  "author": "Bibek",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "expresss": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
