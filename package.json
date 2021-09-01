@@ -6,16 +6,25 @@
   "author": "Bibek",
   "scripts": {
     "serve": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "development": "mix",
+    "watch":"npx mix watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "license": "MIT",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.1",
     "expresss": "^0.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "laravel-mix": "^6.0.29",
+    "nodemon": "^2.0.12",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.38.2",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.14"
   }
 }
