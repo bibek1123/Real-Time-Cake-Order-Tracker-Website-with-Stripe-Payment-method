@@ -8,16 +8,23 @@
     "serve": "node server.js",
     "dev": "nodemon server.js",
     "development": "mix",
-    "watch":"npx mix watch",
+    "watch": "npx mix watch",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
+    "connect-mongo": "^4.5.0",
     "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.1",
-    "expresss": "^0.0.0"
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "expresss": "^0.0.0",
+    "mongoose": "^6.0.4",
+    "noty": "^3.2.0-beta-deprecated"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.29",

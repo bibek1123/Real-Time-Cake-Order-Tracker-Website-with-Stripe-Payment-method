@@ -1,4 +1,6 @@
 @import'./varibles';
+@import'~noty/src/noty.scss';
+@import'~noty/src/themes/mint.scss';
 
 body{
     font-family: 'lato', sans-serif;
@@ -32,6 +34,7 @@ section.hero{
     border: 2px solid $primary;
     color: $primary;
     transition: $smooth;
+    // outline: none;
     &:hover{
         background: $primary;
         border-color: $pure;
@@ -62,4 +65,11 @@ section.login{
             color: $primary-hover;
         }
     }
+}
+
+.noty_theme__mint {
+    border-radius: 50px!important;
+    padding: 3px!important;
+    background-color: blue;
+    color: fuchsia;
 }
