@@ -13,7 +13,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@stripe/stripe-js": "^1.17.1",
     "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
     "connect-mongo": "^4.5.0",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
@@ -23,8 +26,13 @@
     "express-flash": "^0.0.2",
     "express-session": "^1.17.2",
     "expresss": "^0.0.0",
+    "moment": "^2.29.1",
     "mongoose": "^6.0.4",
-    "noty": "^3.2.0-beta-deprecated"
+    "noty": "^3.2.0-beta-deprecated",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.2.0",
+    "stripe": "^8.174.0"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.29",
